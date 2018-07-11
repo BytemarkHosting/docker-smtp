@@ -16,9 +16,9 @@ fi
 cat << EOF > "$CONFDIR/update-exim4.conf.conf"
 dc_eximconfig_configtype='$DC_EXIMCONFIG_CONFIGTYPE'
 dc_other_hostnames=''
-dc_local_interfaces='0.0.0.0'
+dc_local_interfaces=''
 dc_readhost=''
-dc_relay_domains='*'
+dc_relay_domains=''
 dc_minimaldns='false'
 dc_relay_nets='0.0.0.0/0'
 dc_smarthost='${DC_SMARTHOST:-}'
