@@ -10,9 +10,6 @@ mail to an intermediate server (eg, GMail, SendGrid).
 
 ## Usage
 
-In the following examples, linked containers would be able to connect via SMTP
-to hostname `mail` and port `25` to send outoing email.
-
 ### Basic SMTP server
 
 In this example, linked containers can connect to hostname `mail` and port `25`
