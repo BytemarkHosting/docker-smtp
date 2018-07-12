@@ -26,14 +26,16 @@ to send outgoing email. The SMTP container sends email out directly.
 
 ```
 docker run --restart always --name mail -d bytemark/smtp
+
 ```
 
-Via Docker Compose:
+#### Via Docker Compose:
 
 ```
   mail:
     image: bytemark/smtp
     restart: always
+
 ```
 
 ### SMTP smart host
@@ -48,9 +50,10 @@ docker run --restart always --name mail -d bytemark/smtp \
     -e RELAY_PORT=587 \
     -e RELAY_USERNAME=alice@example.com \
     -e RELAY_PASSWORD=secretpassword
+
 ```
 
-Via Docker Compose:
+#### Via Docker Compose:
 
 ```
   mail:
@@ -61,6 +64,7 @@ Via Docker Compose:
       RELAY_PORT: 587
       RELAY_USERNAME: alice@example.com
       RELAY_PASSWORD: secretpassword
+
 ```
 
 ### Environment variables
