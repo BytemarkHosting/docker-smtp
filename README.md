@@ -1,4 +1,4 @@
-## Supported tags and respective `Dockerfile` links
+## Supported tags
 
 * [`stretch`, `latest` (*stretch/Dockerfile*)](https://github.com/BytemarkHosting/docker-smtp/blob/master/stretch/Dockerfile)
 
