@@ -1,12 +1,21 @@
-# https://github.com/BytemarkHosting/docker-smtp
+## Supported tags and respective `Dockerfile` links
 
-## Maintained by: [Bytemark Hosting](https://www.bytemark.co.uk)
+* [`stretch`, `latest` (*stretch/Dockerfile*)](https://github.com/BytemarkHosting/docker-smtp/blob/master/stretch/Dockerfile)
 
-This is the Git repo of the bytemark/smtp image.
+## Quick reference
 
 This image allows linked containers to send outgoing email. You can configure
-it to send email directly to the recipient, or to act as a smart host and relay
+it to send email directly to recipients, or to act as a smart host and relay
 mail to an intermediate server (eg, GMail, SendGrid).
+
+* **Code repository:**
+  https://github.com/BytemarkHosting/docker-smtp
+* **Where to file issues:**
+  https://github.com/BytemarkHosting/docker-smtp/issues
+* **Maintained by:**
+  [Bytemark Hosting](https://www.bytemark.co.uk)
+* **Supported architectures:**
+  [Any architecture that has the Debian `exim4-daemon-light` package](https://packages.debian.org/stretch/exim4-daemon-light)
 
 ## Usage
 
