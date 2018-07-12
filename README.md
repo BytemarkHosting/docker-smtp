@@ -5,7 +5,7 @@
 ## Quick reference
 
 This image allows linked containers to send outgoing email. You can configure
-it to send email directly to recipients, or to act as a smart host and relay
+it to send email directly to recipients, or to act as a smart host that relays
 mail to an intermediate server (eg, GMail, SendGrid).
 
 * **Code repository:**
