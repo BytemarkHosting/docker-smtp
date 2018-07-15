@@ -45,11 +45,12 @@ to send outgoing email. The SMTP container acts as a smart host and relays mail
 to an intermediate server server (eg, GMail, SendGrid).
 
 ```
-docker run --restart always --name mail -d bytemark/smtp \
+docker run --restart always --name mail \
     -e RELAY_HOST=smtp.example.com \
     -e RELAY_PORT=587 \
     -e RELAY_USERNAME=alice@example.com \
-    -e RELAY_PASSWORD=secretpassword
+    -e RELAY_PASSWORD=secretpassword \
+    -d bytemark/smtp
 
 ```
 
