@@ -10,7 +10,7 @@ DC_EXIMCONFIG_CONFIGTYPE="internet"
 # in case port 25 is accidentally exposed to the public internet.
 DC_RELAY_NETS="10.0.0.0/8;172.16.0.0/12;192.168.0.0/16"
 
-# Set smarthost.
+# If RELAY_HOST has been set then switch to smart host configuration.
 if [ "x$RELAY_HOST" != "x" ]; then
     DC_EXIMCONFIG_CONFIGTYPE="satellite"
     DC_SMARTHOST="$RELAY_HOST::${RELAY_PORT:-25}"
