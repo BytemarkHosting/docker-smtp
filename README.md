@@ -32,6 +32,8 @@ docker run --restart always --name mail -d bytemark/smtp
 #### Via Docker Compose:
 
 ```
+version: '3'
+services:
   mail:
     image: bytemark/smtp
     restart: always
@@ -57,6 +59,8 @@ docker run --restart always --name mail \
 #### Via Docker Compose:
 
 ```
+version: '3'
+services:
   mail:
     image: bytemark/smtp
     restart: always
