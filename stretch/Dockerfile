@@ -1,5 +1,4 @@
 FROM debian:stretch-slim
-MAINTAINER Bytemark Hosting "support@bytemark.co.uk"
 
 # Install exim4
 ENV DEBIAN_FRONTEND noninteractive
